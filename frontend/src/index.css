@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass-panel {
+    @apply rounded-2xl border border-iam-gold/20 bg-iam-surface/60 backdrop-blur-2xl shadow-glass;
+  }
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-gold-gradient px-6 py-3 font-inter text-sm font-bold uppercase tracking-widest text-iam-bg shadow-gold transition hover:brightness-110;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-iam-gold/30 px-6 py-3 font-inter text-sm font-medium text-iam-gold-light transition hover:bg-iam-gold/10;
+  }
+  .input-iam {
+    @apply w-full rounded-lg border border-white/10 bg-iam-bg/80 px-4 py-3 font-inter text-sm text-white placeholder:text-iam-muted/50 focus:border-iam-gold focus:outline-none focus:ring-1 focus:ring-iam-gold;
+  }
+  .label-iam {
+    @apply mb-1.5 block font-inter text-xs font-medium uppercase tracking-wider text-iam-muted;
+  }
+}
