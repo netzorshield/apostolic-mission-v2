@@ -1,0 +1,51 @@
+{
+  "project": "International Apostolic Mission",
+  "stack": "React 19 + Vite + Tailwind + Framer Motion | FastAPI + MongoDB",
+  "theme": "DARK",
+  "colors": {
+    "background": "#050B18",
+    "surface": "#071B3A",
+    "primary": "#D4A017",
+    "primary_hover": "#F6D365",
+    "secondary": "#0B2348",
+    "text_main": "#FFFFFF",
+    "text_muted": "#D9D9D9"
+  },
+  "typography": {
+    "headings": "Cinzel",
+    "body": "Cormorant Garamond",
+    "ui": "Inter"
+  },
+  "media": {
+    "site_wallpaper": "Admin-selected via Admin → Wallpaper (single background for all pages)"
+  },
+  "modules": {
+    "mvp": [
+      "Cinematic split-screen auth (login/register)",
+      "Public application form",
+      "9-step enrollment wizard with autosave",
+      "Admin control center",
+      "Digital membership ID with QR",
+      "Member dashboard",
+      "Public member verification"
+    ],
+    "phase2": [
+      "Google/Apple OAuth",
+      "MFA",
+      "OCR identity verification",
+      "SMS/WhatsApp/Email notifications",
+      "Dynamic country address APIs",
+      "Apple/Google Wallet",
+      "Document encrypted storage"
+    ]
+  },
+  "routes": {
+    "/login": "Authentication",
+    "/register": "Account creation",
+    "/apply": "Public application",
+    "/enrollment": "9-step wizard",
+    "/dashboard": "Member portal + digital ID",
+    "/admin": "Admin control center",
+    "/verify/:id": "Public QR verification"
+  }
+}
