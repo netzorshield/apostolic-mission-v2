@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Secrets — never commit
 .env
 .env.local
@@ -27,3 +28,34 @@ Thumbs.db
 # Uploaded media (keep default wallpaper)
 backend/uploads/wallpapers/*
 !backend/uploads/wallpapers/default-sunset.png
+=======
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+node_modules/
+dist/
+legacy/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Uploaded media (keep default wallpaper)
+backend/uploads/wallpapers/*
+!backend/uploads/wallpapers/default-sunset.png
+>>>>>>> 2efb2fb3b6343e2e480f9a79956f4396d0e53fa6
